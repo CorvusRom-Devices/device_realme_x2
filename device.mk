@@ -133,6 +133,11 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
     android.hardware.contexthub@1.0-service
 
+# Charging
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \

@@ -386,6 +386,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OPScreenRecorder
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl 

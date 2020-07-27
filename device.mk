@@ -62,7 +62,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Camera2
+    GCamGo
 
 # Common init scripts
 PRODUCT_PACKAGES += \

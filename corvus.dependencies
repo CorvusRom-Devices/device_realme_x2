@@ -1,8 +1,8 @@
 [
   {
-    "repository"  : "celtare21/android_kernel_realme_sm6150",
+    "repository"  : "dev-harsh1998/android_kernel_realme_sm6150",
     "target_path" : "kernel/realme/sm6150",
-    "branch"      : "custom2"
+    "branch"      : "lineage-17.1"
   },
   {
     "repository"  : "vendor_realme_x2",
@@ -10,9 +10,9 @@
     "branch"      : "ten"
   },
   {
-    "repository"  : "packages_apps_PixelLiveWallpaper",
+    "repository"  : "PixelExperience/packages_apps_PixelLiveWallpaper",
     "target_path" : "packages/apps/PixelLiveWallpaper",
     "branch"      : "ten",
-    "remote"      : "pixel-gitlab"
+    "remote"      : "gitlab"
   }
 ]

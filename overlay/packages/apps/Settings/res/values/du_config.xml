@@ -19,4 +19,5 @@
     <string name="config_batCurCap">/sys/class/power_supply/battery/charge_full</string>
     <bool name="config_supportBatteryHealth">false</bool>
 
+    <string name="pickup_sensor" translatable="false">qti.sensor.amd</string>
 </resources>

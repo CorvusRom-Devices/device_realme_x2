@@ -7,7 +7,7 @@
 $(call inherit-product, device/realme/x2/device.mk)
 
 # Inherit some common Corvus stuff.
-IS_PHONE:= true
+ IS_PHONE:= true
 USE_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64

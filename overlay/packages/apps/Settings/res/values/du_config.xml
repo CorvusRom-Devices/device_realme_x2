@@ -16,8 +16,8 @@
     <!-- Battery Health -->
     <string name="config_batChargeCycle">/sys/class/power_supply/battery/cycle_count</string>
     <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string>
-    <string name="config_batCurCap">/sys/class/power_supply/battery/charge_full</string>
-    <bool name="config_supportBatteryHealth">false</bool>
+    <string name="config_batCurCap">/sys/class/power_supply/battery/capacity</string>
+    <bool name="config_supportBatteryHealth">true</bool>
 
     <string name="pickup_sensor" translatable="false">qti.sensor.amd</string>
 </resources>

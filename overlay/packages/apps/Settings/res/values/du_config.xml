@@ -20,4 +20,8 @@
     <bool name="config_supportBatteryHealth">true</bool>
 
     <string name="pickup_sensor" translatable="false">qti.sensor.amd</string>
+
+    <!-- Corvus maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="corvus_maintainer">RashedSahaji</string>
 </resources>

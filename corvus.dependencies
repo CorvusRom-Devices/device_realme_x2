@@ -5,14 +5,14 @@
     "branch"      : "custom2"
   },
   {
-    "repository"  : "vendor_realme_x2",
+    "repository"  : "CorvusRom-Devices/vendor_realme_x2",
     "target_path" : "vendor/realme/x2",
-    "branch"      : "ten"
+    "branch"      : "10"
   },
   {
-    "repository"  : "packages_apps_PixelLiveWallpaper",
+    "repository"  : "saikiran2001/packages_apps_PixelLiveWallpaper",
     "target_path" : "packages/apps/PixelLiveWallpaper",
     "branch"      : "ten",
-    "remote"      : "pixel-gitlab"
+    "remote"      : "gitlab"
   }
 ]

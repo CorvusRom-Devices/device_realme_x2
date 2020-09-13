@@ -1,0 +1,2 @@
+export SKIP_ABI_CHECKS=true
+add_lunch_combo du_x2-userdebug

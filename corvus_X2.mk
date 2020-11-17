@@ -6,16 +6,18 @@
 
 $(call inherit-product, device/realme/X2/device.mk)
 
-# Inherit some common Evolution X stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
+# Inherit some common Corvus stuff
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+
+# Poduct spec
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+IS_PHONE := true
+scr_resolution := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_X2
+PRODUCT_NAME := corvus_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2

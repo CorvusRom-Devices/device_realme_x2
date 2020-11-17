@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_X2.mk
+    $(LOCAL_DIR)/corvus_X2.mk

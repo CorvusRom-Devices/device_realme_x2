@@ -1,0 +1,17 @@
+[
+  {
+    "repository"  : "skpawar1305/android_kernel_realme_sm6150",
+    "target_path" : "kernel/realme/sm6150",
+    "branch"      : "sof"
+  },
+  {
+    "repository"  : "skpawar1305/android_vendor_realme_x2",
+    "target_path" : "vendor/realme/X2",
+    "branch"      : "lineage-17.1"
+  },
+  {
+    "repository"  : "skpawar1305/android_device_realme_X2-prebuilts",
+    "target_path" : "android/device/realme/X2-prebuilts",
+    "branch"      : "android-11.0.0",
+  }
+]
